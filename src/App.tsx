@@ -28,8 +28,8 @@ function ServiceRow({ title, description }: Service) {
 }
 
 function MagneticButton({ children, className = '', onClick }: { children: ReactNode; className?: string; onClick?: () => void }) {
-  const buttonRef = useRef<HTMLAnchorElement>(null)
-  const handleMouseMove = (event: React.MouseEvent<HTMLAnchorElement>) => {
+  const buttonRef = useRef<HTMLButtonElement>(null)
+  const handleMouseMove = (event: React.MouseEvent<HTMLButtonElement>) => {
     const button = buttonRef.current
     if (!button) return
     const bounds = button.getBoundingClientRect()
