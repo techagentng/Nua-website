@@ -133,9 +133,9 @@ function App() {
       <div className="flex items-center gap-6"><ul className="hidden gap-10 text-sm font-medium uppercase tracking-wider lg:flex"><li><a href="#manifesto" className="hover:text-acid">Studio</a></li><li><a href="#services" className="hover:text-acid">Capabilities</a></li><li><a href="#process" className="hover:text-acid">Approach</a></li><li><a href="#contact" className="hover:text-acid">Contact</a></li></ul><ThemeToggle isDark={isDark} onToggle={() => setIsDark((current) => !current)} /></div>
     </nav>
 
-    <section id="hero" className="relative flex min-h-screen flex-col justify-end px-6 pb-16 pt-32 md:px-16">
-      <div className="mb-8 flex justify-between border-b border-black/10 pb-4 text-[10px] uppercase tracking-[0.14em] text-ink-muted md:text-xs"><span>IT Solutions & Digital Architecture</span><span>Global Delivery</span></div>
-      <h1 className="font-display text-[16vw] font-black leading-[0.78] md:text-[13vw]"><span className="block overflow-hidden"><span className="line-inner delay-1">Architecting</span></span><span className="block overflow-hidden"><span className="line-inner delay-2 italic font-light text-electric">digital clarity.</span></span></h1>
+    <section id="hero" className="relative flex min-h-0 flex-col justify-start px-6 pb-16 pt-32 md:min-h-[100svh] md:justify-end md:px-16">
+      <div className="mb-4 flex justify-between border-b border-black/10 pb-4 text-[10px] uppercase tracking-[0.14em] text-ink-muted md:mb-8 md:text-xs"><span>IT Solutions & Digital Architecture</span><span>Global Delivery</span></div>
+      <h1 className="font-display text-[13vw] font-black leading-[0.78] md:text-[13vw]"><span className="block overflow-hidden"><span className="line-inner delay-1">Architecting</span></span><span className="block overflow-hidden"><span className="line-inner delay-2 italic font-light text-electric">digital clarity.</span></span></h1>
       <div className="mt-12 flex items-end justify-between gap-8"><p className="max-w-xs text-sm leading-relaxed text-ink-muted md:text-base">We engineer foundational IT infrastructure that allows ambitious enterprises to scale without friction.</p><p className="hidden text-right text-sm text-ink-muted md:block">Scroll to explore</p></div>
     </section>
 
